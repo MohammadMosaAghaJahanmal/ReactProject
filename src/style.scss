@@ -1,0 +1,22 @@
+.klc-data-list {
+  & > ul > li {
+    background-color: #fbfbfb;
+    padding: 10px 15px;
+
+    & img + div {
+      position: relative;
+      top: -8px;
+    }
+
+    & .actions-group {
+      display: none;
+      height: 100%;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    &:hover .actions-group {
+      display: flex;
+    }
+  }
+}
